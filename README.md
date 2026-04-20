@@ -120,3 +120,10 @@ Outputs are designed to be directly usable in executive reviews.
 
 ```text
 Data Sources → Ingestion Layer → Signal Extraction → AI Reasoning Layer → WBR Output
+
+Data ingestion: Jira APIs, MCP connectors, Google Apps Script
+Processing: Python / server-side pipelines
+LLM: OpenAI-compatible models for summarization and reasoning
+Storage: structured execution data + derived signals
+Visualization: dashboards / WBR documents
+Automation: scheduled pipelines for weekly reporting
